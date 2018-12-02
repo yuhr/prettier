@@ -253,6 +253,9 @@ function format(text, opts) {
   if (hasUnicodeBOM) {
     result.formatted = String.fromCharCode(UTF8BOM) + result.formatted;
   }
+
+  result.formatted = result.formatted.replace(/\n*$/, "");
+
   return result;
 }
 
