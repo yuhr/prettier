@@ -64,7 +64,7 @@
 
 Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
 
-**`@yuhr/prettier` is a forked version which always trims newlines at the end of the file.**
+**`@yuhr/prettier` is a forked version which always trims newlines at the end of the file. You may want to install this package with the alias `prettier` instead of `@yuhr/prettier`, using kind of `yarn add prettier@npm:@yuhr/prettier`.**
 
 ### Input
 
