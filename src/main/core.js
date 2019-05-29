@@ -361,6 +361,8 @@ function format(text, opts) {
     }
   }
 
+  result.formatted = result.formatted.replace(/\n*$/, "");
+
   return result;
 }
 
